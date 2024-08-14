@@ -14,10 +14,10 @@
             //                    | GUI | LWR | SPC |                    | ENT | RSE  | ALT |
 
             bindings = <
-&mt GRAVE TAB  &kp Q  &kp W  &kp E                  &kp R       &kp T                         &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BSPC
-&kp ESC        &kp A  &kp S  &kp D                  &kp F       &kp G                         &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LSHFT      &kp Z  &kp X  &kp C                  &kp V       &kp B      &none  &kp C_MUTE  &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp BACKSLASH
-                             &mt LCMD LEFT_CONTROL  &lt 1 LCMD  &kp ENTER                     &kp SPACE  &mo 2  &kp RIGHT_ALT
+&mt GRAVE TAB  &kp Q  &kp W  &kp E                       &kp R               &kp T                         &kp Y      &kp U  &kp I          &kp O    &kp P     &kp BSPC
+&kp ESC        &kp A  &kp S  &kp D                       &kp F               &kp G                         &kp H      &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT      &kp Z  &kp X  &kp C                       &kp V               &kp B      &none  &kp C_MUTE  &kp N      &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp BACKSLASH
+                             &mt LEFT_META LEFT_CONTROL  &lt 1 LEFT_COMMAND  &kp ENTER                     &kp SPACE  &mo 2  &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
